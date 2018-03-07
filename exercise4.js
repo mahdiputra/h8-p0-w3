@@ -22,42 +22,43 @@ function datahandling2(input){
     
     switch (point) {
       case '01':
-       console.log(' Januari ');
+       point = 'Januari ';
        break;
       case '02':
-        console.log('Februari ');
+       point = 'Februari ';
         break;
       case '03':
-        console.log('Maret ');
+       point= 'Maret ';
         break;
       case '04':
-       console.log('April ');
+      point = 'April ';
        break;
       case '05':
-        console.log('Mei ');
+       point = 'Mei ';
         break;
       case '06':
-        console.log('juni ');
+       point = 'juni ';
         break;
       case '07':
-       console.log('juli ');
+       point= 'juli ';
        break;
       case '08':
-        console.log('agustus ');
+       point= 'agustus ';
         break;
       case '09':
-        console.log('september ');
+       point = 'september ';
         break;
       case '10':
-       console.log('oktober ');
+       point = 'oktober ';
        break;
       case '11':
-        console.log('november ');
+       point ='november ';
         break;
       case '12':
-        console.log('desember ');
+       point='desember ';
         break; }
-        
+    
+    console.log(point)    
     console.log('\n')    
         
     var descend = bulan.sort(

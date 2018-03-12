@@ -10,7 +10,7 @@ function loop()
                 ]
 
 
-           for (var i = 0; i < 4;i++)
+           for (var i = 0; i < input.length;i++)
         {
             console.log("no : " + input[i][0]);
             console.log("nama : " + input[i][1]);
